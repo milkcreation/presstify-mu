@@ -25,7 +25,7 @@
     }
   ],
   "require": {
-    "presstify-framework": "^1.4"
+    "presstify-framework": "*"
   },
   "minimum-stability": "dev",
   "prefer-stable": true
