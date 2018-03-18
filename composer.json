@@ -1,30 +1,35 @@
 {
   "name": "presstify/presstify-mu",
-  "description": "PresstiFy Wordpress Mu-plugins Installer.",
-  "keywords": ["framework", "presstify", "wordpress", "mu-plugins"],
-  "homepage": "http://svn.milkcreation.fr/presstify-mu",
+  "description": "Version mu-plugin Wordpress de PresstiFy.",
+  "type": "wordpress-muplugin",
+  "keywords": [
+    "framework", 
+    "presstify", 
+    "wordpress", 
+    "mu-plugins"
+  ],
+  "homepage": "https://svn.tigreblanc.fr/presstify-mu",
   "licence": "proprietary",
   "config": {
-    "secure-http": false,
     "preferred-install": "dist",
     "sort-packages": true,
-    "optimize-autoloader": true,
-    "vendor-dir": "presstify-mu/vendor"			
+    "optimize-autoloader": true
   },
   "authors": [
     {
       "name": "Jordy Manner",
-      "email": "jordy.manner@milkcreation.fr",
-      "role": "Lead Developper"
+      "email": "jordy@milkcreation.fr",
+      "role": "Developper"
     }
   ],
   "repositories": [
     {
       "type": "composer",
-      "url": "http://composer.tigreblanc.fr/presstify"
+      "url": "https://composer.tigreblanc.fr/presstify"
     }
   ],
   "require": {
+    "composer/installers": "~1.0",
     "presstify/framework": "^1.4"
   },
   "minimum-stability": "dev",

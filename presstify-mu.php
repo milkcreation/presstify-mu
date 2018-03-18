@@ -1,6 +1,6 @@
 <?php
 
-use \tiFy\tiFy;
+use tiFy\tiFy;
 
 require_once __DIR__ . '/vendor/autoload.php';
 
