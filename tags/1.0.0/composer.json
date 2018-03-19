@@ -11,10 +11,6 @@
   "homepage": "https://svn.tigreblanc.fr/presstify-mu",
   "time": "2018-03-19",
   "licence": "proprietary",
-  "config": {
-    "preferred-install": "dist",
-    "sort-packages": false
-  },
   "authors": [
     {
       "name": "Jordy Manner",
