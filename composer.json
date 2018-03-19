@@ -12,8 +12,7 @@
   "licence": "proprietary",
   "config": {
     "preferred-install": "dist",
-    "sort-packages": true,
-    "optimize-autoloader": true
+    "sort-packages": false
   },
   "authors": [
     {
@@ -25,7 +24,7 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "https://composer.tigreblanc.fr/presstify"
+      "url": "http://composer.tigreblanc.fr/presstify"
     }
   ],
   "require": {
