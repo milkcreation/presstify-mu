@@ -23,8 +23,12 @@
   ],
   "repositories": [
     {
-      "type": "composer",
-      "url": "http://composer.tigreblanc.fr/presstify"
+      "type": "vcs",
+      "url": "https://svn.tigreblanc.fr/presstify-mu"
+    },
+    {
+      "type": "vcs",
+      "url": "https://svn.tigreblanc.fr/presstify-framework"
     }
   ],
   "require": {
