@@ -3,13 +3,13 @@
   "description": "Version mu-plugin Wordpress de PresstiFy.",
   "type": "wordpress-muplugin",
   "keywords": [
-    "framework", 
-    "presstify", 
-    "wordpress", 
+    "presstify",
+    "framework",
+    "wordpress",
     "mu-plugins"
   ],
   "homepage": "https://svn.tigreblanc.fr/presstify-mu",
-  "time": "2018-04-02",
+  "time": "2018-04-04",
   "licence": "proprietary",
   "authors": [
     {
@@ -21,7 +21,7 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "https://composer.tigreblanc.fr/presstify"
+      "url": "http://composer.tigreblanc.fr/presstify/"
     }
   ],
   "require": {
@@ -31,8 +31,8 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "config": {
+    "secure-http": false,
     "preferred-install": "dist",
-    "sort-packages": true,
-    "optimize-autoloader": true
+    "sort-packages": false
   }
 }
