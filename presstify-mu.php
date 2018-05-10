@@ -5,9 +5,7 @@
  * @desc Chargement de presstiFy en tant que mu-plugin.
  * @author Jordy Manner <jordy@milkcreation.fr>
  * @package mu-plugin
- * @version 1.1.0
+ * @version 2.0.0
  */
 
-use tiFy\tiFy;
-
-new tiFy();
+new \tiFy\tiFy();
