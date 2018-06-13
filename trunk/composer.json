@@ -9,7 +9,7 @@
     "mu-plugins"
   ],
   "homepage": "https://svn.tigreblanc.fr/presstify-mu",
-  "time": "2018-05-10",
+  "time": "2018-06-13",
   "licence": "proprietary",
   "authors": [
     {
@@ -26,13 +26,14 @@
   ],
   "require": {
     "composer/installers": "~1.0",
-    "presstify/framework": "^2.0"
+    "presstify/framework": "^1.4"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
   "config": {
-    "secure-http": false,
+    "optimize-autoloader": true,
     "preferred-install": "dist",
+    "secure-http": false,
     "sort-packages": true
   }
 }
