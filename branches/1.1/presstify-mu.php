@@ -8,6 +8,4 @@
  * @version 1.1.0
  */
 
-use tiFy\tiFy;
-
-new tiFy();
+new \tiFy\tiFy();
