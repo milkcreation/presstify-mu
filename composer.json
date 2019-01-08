@@ -1,6 +1,5 @@
 {
   "name": "presstify/presstify-mu",
-  "description": "Version mu-plugin Wordpress de PresstiFy.",
   "type": "wordpress-muplugin",
   "keywords": [
     "presstify",
@@ -9,8 +8,8 @@
     "mu-plugins"
   ],
   "homepage": "https://svn.tigreblanc.fr/presstify-mu",
-  "time": "2018-06-13",
-  "licence": "proprietary",
+  "time": "2018-08-25",
+  "license": "proprietary",
   "authors": [
     {
       "name": "Jordy Manner",
@@ -26,7 +25,7 @@
   ],
   "require": {
     "composer/installers": "~1.0",
-    "presstify/framework": "^1.4"
+    "presstify/framework": "^2.0"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,

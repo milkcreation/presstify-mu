@@ -1,11 +1,13 @@
 <?php
 
 /**
- * @name presstify/presstify-mu
- * @desc Chargement de presstiFy en tant que mu-plugin.
+ * @name PresstiFy MuPlugin
+ * @desc Mu-plugin Wordpress de chargement du framework presstiFy.
  * @author Jordy Manner <jordy@milkcreation.fr>
- * @package mu-plugin
- * @version 1.1.0
+ * @package presstiFy
+ * @version 2.0.0
  */
 
-new \tiFy\tiFy();
+use tiFy\tiFy;
+
+new tiFy();
