@@ -1,5 +1,6 @@
 {
   "name": "presstify/presstify-mu",
+  "description": "PresstiFy Wordpress Mu Plugin",
   "type": "wordpress-muplugin",
   "keywords": [
     "presstify",
@@ -7,23 +8,24 @@
     "wordpress",
     "mu-plugins"
   ],
-  "homepage": "https://svn.tigreblanc.fr/presstify-mu",
-  "time": "2020-06-12",
-  "license": "proprietary",
+  "homepage": "https://svn.presstify.com/presstify-mu",
+  "time": "2021-05-09",
+  "license": "MIT",
   "authors": [
     {
       "name": "Jordy Manner",
-      "email": "jordy@milkcreation.fr",
+      "email": "jordy@presstify.com",
       "role": "Developper"
     }
   ],
   "repositories": [
     {
       "type": "composer",
-      "url": "http://composer.tigreblanc.fr/presstify/"
+      "url": "https://composer.presstify.com/presstify/"
     }
   ],
   "require": {
+    "php": ">=7.4",
     "composer/installers": "~1.0",
     "presstify/framework": "^2.0"
   },
@@ -32,7 +34,6 @@
   "config": {
     "optimize-autoloader": true,
     "preferred-install": "dist",
-    "secure-http": false,
     "sort-packages": true
   }
 }
