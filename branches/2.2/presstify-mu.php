@@ -1,13 +1,7 @@
 <?php
 
-/**
- * @name PresstiFy MuPlugin
- * @desc Mu-plugin Wordpress de chargement du framework presstiFy.
- * @author Jordy Manner <jordy@milkcreation.fr>
- * @package presstiFy
- * @version 2.0.1
- */
+declare(strict_types=1);
 
-use tiFy\tiFy;
+use tiFy\Wordpress\WpKernel;
 
-(new tiFy())->boot();
+(new WpKernel(get_template_directory() . '/config'))->boot();
