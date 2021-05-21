@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 
-use tiFy\Wordpress\WpKernel;
+use Pollen\WpKernel\WpKernel;
 
-(new WpKernel(get_template_directory() . '/config'))->boot();
+$wpKernel = new WpKernel(get_template_directory() . '/config');
+
+add_action('after_setup_theme',  function () use ($wpKernel) {
+    $wpKernel->boot();
+}, -1);
