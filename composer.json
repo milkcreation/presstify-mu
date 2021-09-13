@@ -8,8 +8,8 @@
     "wordpress",
     "mu-plugins"
   ],
-  "homepage": "https://svn.presstify.com/presstify-mu",
-  "time": "2021-05-21",
+  "homepage": "https://github.com/milkcreation/presstify-mu.git",
+  "time": "2021-09-13",
   "license": "MIT",
   "authors": [
     {
@@ -18,14 +18,8 @@
       "role": "Developper"
     }
   ],
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://composer.presstify.com/presstify/"
-    }
-  ],
   "require": {
-    "php": ">=7.4",
+    "php": "^7.4",
     "composer/installers": "~1.0",
     "presstify/framework": "^2.2"
   },
